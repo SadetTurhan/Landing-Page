@@ -1,4 +1,4 @@
-*{
+*{    
     background-color: #1F2937;
 }
 
@@ -7,26 +7,53 @@
     margin-left: 100px;
     padding: 2px;
     display:flex;
-    justify-content: space-between;
     align-items: flex-start;
     font-size: 24px;
+    color: #F9FAF8;
+    gap: 2px;
+}
+.header-t{
+    margin-left: 430px;
+    padding: 2px;
+    margin-right: 50px;
+    display:flex;
+    align-items: flex-end;
+    font-size: 14px;
     color: #F9FAF8;
 }
 .headerimg{
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 5px;
   width: 100px;
 }
 
-.hero {
+.hero{
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 100px;
+    background-color: #1F2937;
 }
 
+.hero-t{
+    display: flex;
+    margin-left: 100px;
+    font-size: 48px;
+    color:#F9FAF8
+}
+.hero-s{
+    display: flex;
+    margin-left: 100px;
+    font-size: 18px;
+    color:#E5E7EB
+}
+.hero-b{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
 button{
     background-color:#3882F6;
 }
@@ -36,28 +63,67 @@ button{
     justify-content: center;
     align-items: flex-start;
     background-color: white;
+    font-size:36px;
+    color:#1F2937;
+    grid-template-columns: auto auto auto auto;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    height:200px;
-    column-gap: 50px;
-    row-gap: 50px;
+    height:auto;
+    column-gap: 5px;
+    row-gap: 10px;
     justify-content: space-evenly;
     align-content: center;
     background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 
+.imgs {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 150px;
+}
 .quote {
     display: flex;
-    background-color: grey;
+    background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
+    grid-area: quote;
+}
+
+.quote-t{
+    font-size: 36px;
+    color:#1F2937;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    height: 200px;
+}
+.quote-a{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 26px;
+    color:#1F2937;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-color: #E5E7EB;
+    height: 100px;
 }
 .footer{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    background-color: white;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.last{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
