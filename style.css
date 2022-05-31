@@ -43,6 +43,14 @@
     font-size: 48px;
     color:#F9FAF8
 }
+.hero-h{
+    display: flex;
+    justify-content: flex-end;
+    align-self:flex-end;
+    height:200px;
+    width: 300px;
+    margin-left: 200px;
+}
 .hero-s{
     display: flex;
     margin-left: 100px;
@@ -127,12 +135,4 @@ button{
     display:flex;
     justify-content: center;
     align-items: center;
-}
-.hero-h{
-    display: flex;
-    justify-content: flex-end;
-    align-self:flex-end;
-    height:200px;
-    width: 300px;
-    margin-left: 200px;
 }
