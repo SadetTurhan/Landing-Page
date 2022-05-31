@@ -1,5 +1,5 @@
 *{    
-    background-color: #1F2937;
+    background-color: rgb(1, 27, 1);
 }
 
 .header {
@@ -34,7 +34,7 @@
     align-items: flex-start;
     margin-top: 50px;
     margin-left: 100px;
-    background-color: #1F2937;
+    background-color: rgb(1, 27, 1);
 }
 
 .hero-t{
@@ -112,18 +112,27 @@ button{
     color:#1F2937;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
-    background-color: #E5E7EB;
+    background-color: #0d1b35;
     height: 100px;
 }
 .footer{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #3882F6;
+    height: 100px;
+    width: 1500px;
+    margin-left: 300px;
+    margin-right: 400px;
 }
 
 .last{
     display:flex;
     justify-content: center;
     align-items: center;
+}
+.hero-h{
+    display: flex;
+    justify-content: flex-end;
+    align-self:flex-end;
+    height:200px;
+    width: 300px;
+    margin-left: 200px;
 }
